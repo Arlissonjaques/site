@@ -1,0 +1,57 @@
+:root{
+    --color-main: #F56BB5;
+    --secondary-color: #FF0657;
+    --bege: #FFAEC9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 550px;
+    background: var(--color-main);
+    padding: 30px;
+}
+
+/* -------------------------------- */
+
+.slogan{
+    position: absolute;
+    width: 592px;
+    height: 174px;
+    left: 100px;
+    top: 180px;
+
+    font-family: Kite One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 87px;
+    color: #000000;
+}
+
+/* -------------------------------- */
+
+.menu a{
+    font-size: 30px;
+    padding: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000000;
+    font-family: Kanit;
+}
+
+.menu a:hover{
+    border-bottom: 3px solid var(--secondary-color);
+}
+
+/* -------------------------------- */
+
+.image-background{
+    position: absolute;
+    height: 700px;
+    left: 800px;
+    top: 0px;
+}
